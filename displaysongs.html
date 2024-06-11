@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Display songs</title>
+<link rel="stylesheet" href="displaysongs.css">
+</head>
+<body style = justify-content:center>
+<div class="content">
+<table border="1">
+
+<thead>
+    <tr>
+        <td>Name</td>
+        <td>Artist</td>
+        <td>Genre</td>
+        <td>Link</td>
+    </tr>
+</thead>
+
+<tbody>
+    <tr th:each = "songs : ${songs}">
+        <td th:text = ${songs.name}></td>
+        <td th:text = ${songs.artist}></td>
+        <td th:text = ${songs.genre}></td>
+        <td> <audio controls>
+        <source th:src=${songs.link} type="audio/mpeg">
+             </audio>
+        </td>
+        </tr>
+</tbody>
+
+</table>
+</div>
+</body>
+</html>

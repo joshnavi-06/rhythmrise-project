@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+  background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/cW5lDBG/music-notes-fly-out_bs_legdn_thumbnail-1080_01.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right; /* Adjusted to the left side */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Your Chosen Font", "Californian FB", serif;
+}
+
+.two-column-container {
+  display: flex;
+ 
+}
+
+.register-container {
+  flex: 2;
+  text-align: center;
+  padding: 20px; /* Add padding for spacing inside the container */
+}
+
+#welcome-heading {
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); ;
+  margin-bottom: 20px;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 10px;
+}
