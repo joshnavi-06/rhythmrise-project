@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body
+{
+	background-image:url('https://wallpapercave.com/wp/wp2480933.jpg');
+    background-size:cover;	
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; 
+    font-family: "Your Chosen Font", Californian FB;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+     
+}
+
+.login-container {
+    text-align: center; /* Center the content horizontally */
+}
+.content{
+	
+  text-shadow: none;
+  width: 100%; /* Adjust the width based on your design preference */
+  margin:20px;
+  padding: 20px; /* Add padding for spacing inside the content container */
+  border : 1px solid #3498db ;
+  box-sizing:border-box;
+  background: linear-gradient(to right, #ADD8E6, #800080);/* #FFC0CB */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/* Optional: Add a background color for better visibility */
+}
