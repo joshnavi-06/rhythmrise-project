@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body
+{
+	background-image:url('https://wallpapercave.com/wp/wp2480933.jpg');
+    background-size:cover;	
+    background-repeat: no-repeat;
+    background-position:right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin:0;
+    font-family: "Your Chosen Font", Californian FB;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+     
+}
+
+.registerfail-container {
+  flex: 10;
+  text-align: center;
+  padding: 20px; /* Add padding for spacing inside the container */
+}
+
+.link {
+  justify-content:center;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 10px;
+}

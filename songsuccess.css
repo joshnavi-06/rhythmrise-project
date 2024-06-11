@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body
+{
+	background-image:url('https://wallpapercave.com/wp/wp2480933.jpg');
+    background-size:cover;	
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; 
+    font-family: "Your Chosen Font", Californian FB;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+     
+}
+
+.container
+{
+	 text-align: center;
+}

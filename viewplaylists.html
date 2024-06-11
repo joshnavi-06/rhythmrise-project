@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>View PlayList</title>
+<link rel="stylesheet" href="viewplaylist.css">
+</head>
+<body>
+<div class="content">
+<h2> These are the PlayLists you have created !! </h2>
+<table border="1" class="container">
+<thead>
+    <tr>
+        <th>PlayList ID</th>
+        <th>PlayList NAME</th>
+        <th>PlayList SONGS</th>
+    </tr>
+</thead>
+<tbody>
+    <tr th:each = "pl : ${plist}">
+        <td th:text = "${pl.id}"/>
+		<td th:text = "${pl.name}"/>
+		<td>
+            <ul>
+			    <li th:each ="s : ${pl.songs}">
+				    <span th:text="${s.name}"></span>
+				    <audio controls>
+				        <source th:src="${s.link}" type="audio/mpeg">
+				    </audio>
+				</li>
+             </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

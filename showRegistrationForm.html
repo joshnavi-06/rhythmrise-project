@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+ <h2>User Registration</h2>
+
+    <form action="/register" method="post" th:object="${user}">
+        <!-- Add form fields for user registration -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" th:field="*{email}" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" th:field="*{password}" required>
+
+        <!-- Add other fields as needed -->
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
